@@ -20,6 +20,7 @@ var cutie="Cutie";
 console.log("------------------------- Before Swapping -------------------------");
 console.log(sweety,cutie);
 
+
 var temp="Sweety";
 var sweety="Cutie";
 var cutie="Sweety";
