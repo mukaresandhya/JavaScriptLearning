@@ -5,9 +5,9 @@ var yourNumber=300;
 console.log("------------------------- Before Swapping -------------------------");
 console.log(myNumber,yourNumber);
 
- var temp=100;
- var myNumber=300;
- var yourNumber=100;
+ var temp=myNumber;
+ var myNumber=yourNumber;
+ var yourNumber=temp;
 
  console.log("------------------------- After Swapping -------------------------");
  console.log(myNumber,yourNumber);
@@ -21,9 +21,9 @@ console.log("------------------------- Before Swapping -------------------------
 console.log(sweety,cutie);
 
 
-var temp="Sweety";
-var sweety="Cutie";
-var cutie="Sweety";
+var temp=sweety;
+var sweety=cutie;
+var cutie=temp;
 
 console.log("------------------------- After Swapping -------------------------");
 console.log(sweety,cutie);
@@ -39,9 +39,9 @@ var num3=300;
 console.log("------------------------- Before Swapping -------------------------");
 console.log(num1,num2,num3);
 
-var temp=100;
-var num1=200;
-var num2=300;
-var num3=100;
+var temp=num1;
+var num1=num2;
+var num2=num3;
+var num3=temp;
 console.log("------------------------- After Swapping -------------------------");
 console.log(num1,num2,num3);
