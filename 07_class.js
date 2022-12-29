@@ -8,7 +8,7 @@ class Employee{
     }
 }
 
-let empSmith=new Employee("Smith",101,23,"Pune");
+empSmith=new Employee("Smith",101,23,"Pune");
 empJay=new Employee("Jay",102,26,"Mumbai");
 empBill=new Employee("Billgates",103,25,"nagpur",)
 console.log(empSmith);
