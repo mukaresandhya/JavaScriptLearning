@@ -8,7 +8,7 @@ console.log(`1. Find First and Last element in the array`);
 //let firstElement=fruits_seasonal[0];
 let lastElement=fruits_seasonal.slice(-1);
 console.log(`First Element in the array is : "${fruits_seasonal[0]}" and last element in the array is : "${lastElement}"`);
-// var firstElement=fruits_seasonal.slice(0,1);
+//var firstElement=fruits_seasonal.slice(0,1);
 // console.log(`First Element in the array is :${firstElement}`);
 
 console.log(`------------------------------------------------------------------------`);
