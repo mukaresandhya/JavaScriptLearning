@@ -46,6 +46,14 @@ var startWith=stringTrim.startsWith("Hey");
 console.log(`Is String Start with word "Hey" : ${startWith}`);
 
 
+var str2="I am Snehal";
+var lengthstr=str2.length;
+var splitString=str2.split(" ");
+console.log(splitString);
+console.log(lengthstr);
+var length=splitString.length;
+console.log(length);
+
 
 
 
