@@ -14,7 +14,8 @@ console.log(`First Element in the array is : "${fruits_seasonal[0]}" and last el
 console.log(`------------------------------------------------------------------------`);
 console.log(`2. Add Element Papaya before Banana in the array`);
 console.log(`Before Adding Papaya : ${fruits_seasonal}`);
-fruits_seasonal.splice(0,0,'Papaya');
+//fruits_seasonal.splice(0,0,'Papaya');
+fruits_seasonal.unshift("Papaya");
 console.log(`After Adding Papaya :${fruits_seasonal}`);
 console.log(`------------------------------------------------------------------------`);
 
