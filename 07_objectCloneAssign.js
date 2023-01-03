@@ -94,3 +94,4 @@ console.log(empDetails.emp_name);
 console.log(empDetails.Salary);
 console.log(empDetails.address);
 console.log(empDetails.mobiles);
+
