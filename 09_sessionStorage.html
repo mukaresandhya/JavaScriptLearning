@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Session Storage</title>
+    </head>
+    <body>
+        <h2>Session Storage</h2>
+        <script>
+            console.log("Session Storage");
+            window.sessionStorage.setItem("Name","Sandhya Mukare");
+            window.sessionStorage.setItem("City","Solapur");
+            window.sessionStorage.setItem("Pincode","413 411");
+            window.sessionStorage.setItem("District","Solapur");
+            const totalData=window.sessionStorage.length;
+            console.log(totalData);
+            window.sessionStorage.removeItem("City");
+        </script>
+    </body>
+</html>
